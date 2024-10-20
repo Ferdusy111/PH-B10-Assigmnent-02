@@ -6,3 +6,83 @@
   font-weight: 400;
   font-style: normal;
 }
+/* --------------------------------------------------------------------------- */
+/* shared style----------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+.fit-style{ 
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-align: left;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+/* ___________________________________1ST PART___________________________________ */
+/* nav style--------------------------------- */
+.navbar{
+    max-width:1060px ;
+    height:46px ;
+    margin: 0 auto;
+    margin-top: 45px;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{ 
+    list-style: none; 
+}
+ul li a{
+    text-decoration: none;
+}
+.nav-item ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .nav-item{
+    width:400px;
+    height:36px ;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;     
+}
+.navbar .nav-item .nav-link a{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-right: 25px;
+    margin-right: 47px;
+}
+.nav-btn{
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    border-radius: 39px;
+    border: none;
+    font-size:1.1rem ;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.nav-hamburger{
+    display: none;
+}
+/* header style------------------------------------- */
+header{
+    max-width:1340px ;
+    height:715px ;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 2px solid burlywood;
+    /* background-color: black; */
+    background-color: black;
+}

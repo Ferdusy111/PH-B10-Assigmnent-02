@@ -1,0 +1,21 @@
+/* Responsive navbar------------------------------------- */
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navbar{
+        max-width: 90%;
+    }
+}
+/*For small device*/
+@media screen and (max-width:576px) {
+    .navbar{
+        max-width: 90%;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-hamburger{
+        display: block;
+        color: rgba(255, 255, 255)
+    }
+    
+}
