@@ -1,4 +1,4 @@
-/* Responsive navbar------------------------------------- */
+/* ------------------------Responsive navbar------------------------- */
 /* For medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
     .navbar{
@@ -6,7 +6,7 @@
     }
 }
 /*For small device*/
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
     .navbar{
         max-width: 90%;
     }
@@ -17,5 +17,61 @@
         display: block;
         color: rgba(255, 255, 255)
     }
-    
 }
+/* ------------------------------Responsive header-------------------------- */
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header .banner{
+        flex-direction: column;
+    }
+}
+/* For small device */
+@media screen and (max-width:576px){
+    header .banner{
+        flex-direction: column;
+    }
+    .banner .banner-left {
+        max-width: 100%;
+        margin-left: 10px;
+    }
+    .banner .banner-left .fit-title{
+        width: 100%;
+    }
+    .banner .banner-left .fit-description {
+        width: 90%;
+    }
+    .prym-btn{
+        display: none;
+    }
+    .phone-btn{
+        display: block;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+        padding: 14px 25px 14px 25px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        border: none;
+    }
+    .nrml-btn{
+        padding: 14px 20px 14px 20px;
+        border-radius: 42px;
+        margin-left: 0px;
+        margin-left: 10px;
+    }
+    .btn-container{
+        display: flex;
+    }
+    .banner .banner-right {
+        margin-left: 0px;
+        margin-top: 150px;
+        width: 100%;
+    }
+    .card-1{
+        transform: translate(200px, 40px);
+    }
+    .card-2{
+        transform: translate(20px,175px);
+    }  
+}
+/* ------------------Responsive */
