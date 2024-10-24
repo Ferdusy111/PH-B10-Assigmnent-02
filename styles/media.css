@@ -1,6 +1,6 @@
 /* ------------------------Responsive navbar------------------------- */
 /* For medium device */
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:577px) and (max-width:992px) {
     .navbar{
         max-width: 90%;
     }
@@ -20,7 +20,7 @@
 }
 /* ------------------------------Responsive header-------------------------- */
 /* For medium device */
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:577px) and (max-width:992px) {
     header .banner{
         flex-direction: column;
     }
@@ -74,4 +74,50 @@
         transform: translate(20px,175px);
     }  
 }
-/* ------------------Responsive */
+/* ------------------Responsive change habit section-------------------------- */
+/* For medium device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .change-habit{
+        width:566px;
+        height:850px;
+        margin: 0 auto;
+        /* border: 2px solid yellowgreen; */
+        margin-top: 600px;
+    }
+    .habit-title{
+        margin-bottom: 15px;
+    }
+    .habit-subtitle{
+        margin-bottom: 100px;
+    }
+    .habit-item{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        gap: 30px;
+    }
+    .habit{
+        width: 65%;
+        margin-left: 18%;
+    }  
+}
+/* for small device */
+@media screen and (max-width:576px) {
+    .change-habit{
+        margin-top: 600px;
+        width: 100%;
+    }
+    .habit-title{
+        max-width: 95%;
+        /* border: 2px solid red; */
+    }
+    .habit-item{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        align-items: center;
+    }
+    .habit{
+        width: 180px;
+        margin-left: 28%;
+    } 
+}
