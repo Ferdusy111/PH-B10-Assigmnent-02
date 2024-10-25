@@ -40,7 +40,7 @@
     .banner .banner-left .fit-description {
         width: 90%;
     }
-    .prym-btn{
+    .orange-btn{
         display: none;
     }
     .phone-btn{
@@ -53,7 +53,7 @@
         background: rgb(230, 83, 60);
         border: none;
     }
-    .nrml-btn{
+    .prym-btn{
         padding: 14px 20px 14px 20px;
         border-radius: 42px;
         margin-left: 0px;
@@ -121,3 +121,62 @@
         margin-left: 28%;
     } 
 }
+/* ---------------------------Responsive run section------------------------- */
+/* for medium device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .run{
+        width:95% ;
+        height:450px ;
+        margin: 0 auto;
+        /* border: 2px solid red; */
+    }
+    .run-subtitle{ 
+        margin-bottom: 30px;
+    }
+    .run-container .run-text{
+        margin:  60px;
+    }
+    .run-container .run-pic{
+        width: 50%;
+        margin:70px 30px 30px 0px;
+    }
+}
+/* For small device */
+@media screen and (max-width:576px) {
+    .run{
+        width: 90%;
+        height: 200%;
+        margin-top: 1000px;
+    }
+    .run-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .run-container .run-text{
+        width:330px ;
+        height:350px ;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .run-title{
+        text-align:left ;
+    }
+    .run-subtitle{
+        margin: 0px;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .primary-btn{
+        text-align: center;
+        width: 100%;
+    }
+    .run-container .run-pic{
+        margin: 0px;
+        width:330px ;
+        height:170px ;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    } 
+}
+/* ---------------------Responsive */

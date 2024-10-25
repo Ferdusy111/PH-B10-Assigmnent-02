@@ -24,12 +24,12 @@
 }
 .prym-btn{
     color: rgb(255, 255, 255);
-font-size: 1.125rem;
-font-weight: 600;
-padding: 14px 35px 14px 35px;
-border-radius: 42px;
-background: rgb(230, 83, 60);
-border: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
 }
 .title{
     color: rgb(255, 255, 255);
@@ -41,6 +41,15 @@ border: none;
     font-size: 14px;
     font-weight: 400;
     margin-top: 14px;
+}
+.primary-btn{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 15px 60px 15px 60px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
 }
 
 
@@ -138,11 +147,20 @@ header .banner{
 .phone-btn{
     display: none;
 }
+.orange-btn{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
 .nrml-btn{
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 600;
-    padding: 14px 35px 14px 35px;
+    padding: 16px 40px 16px 40px;
     border-radius: 42px;
     border: 1px solid rgb(255, 255, 255);
     background-color: transparent;
@@ -248,4 +266,43 @@ header .banner{
     text-align: center;
     margin-top: 6px;
 }
-/* ___________________________________3RD PART______________________________ */
+/* ___________________________________3RD PART________________________________*/
+.run{
+    width:1060px ;
+    height:371px ;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 2px solid yellowgreen; */
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+.run-container{
+    display: flex;
+}
+.run-container{
+    display: flex;
+}
+.run-container .run-text{
+    width:443px ;
+    height:290px ;
+    /* border: 2px solid red; */
+    margin: 41px 0px 40px 54px;
+}
+.run-subtitle{ 
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+.run-container .run-pic{
+    width: 366px;
+    height: 312px;
+    margin: 30px 32px 29px 165px;
+    /* border: 2px solid red; */
+}
+.run-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+/* ____________________________________4TH PART_________________________________ */
