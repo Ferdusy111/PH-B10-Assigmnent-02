@@ -297,7 +297,7 @@ header .banner{
     text-align: left;
     margin-bottom: 34px;
 }
-.run-container .run-pic{
+ .run-container .run-pic{
     width: 366px;
     height: 312px;
     margin: 30px 32px 29px 165px;
@@ -306,7 +306,7 @@ header .banner{
 .run-pic img{
     width: 100%;
     height: 100%;
-    border-radius: 18px;
+    border-radius: 18px; 
 }
 /* ____________________________________4TH PART_________________________________ */
 
@@ -421,7 +421,7 @@ header .banner{
 .our-team{
     width:1060px ;
     height:782px ;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     margin: 0 auto;
 }
 .our-team-title{
@@ -429,12 +429,79 @@ header .banner{
 }
 .our-team-description{
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 58px;
 }
-.our-team-picture{
+.team-cards{
+    width: 1060px;
+    height:630px ;
+    margin: 0 auto;
+    /* border: 2px solid pink; */
+    border-radius: 18px;
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+    background: rgb(34, 34, 34);;
 }
-.our-team-picture imgS{
-    width: 30%;
+.pic-1{
+    background-image: url(../images/trainer1.png);
+    width: 326px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
 }
+.pic-2{
+    background-image: url(../images/trainer2.png);
+    width: 326px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.pic-3{
+    background-image: url(../images/trainer3.png);
+    width: 326px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.pic-4{
+    background-image: url(../images/trainer4.png);
+    width: 326px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+}
+.pic-5{
+    background-image: url(../images/trainer5.png);
+    width:326px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.pic-6{
+    background-image: url(../images/trainer6.png);
+    width: 326px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.pic-title{
+    color: aliceblue;
+}
+.pic-description{
+    color: grey;
+}
+.pic-text{
+    position: relative;
+    top: -55px;
+    left: 15px;
+}
+

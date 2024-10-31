@@ -233,6 +233,9 @@
     .chart-left {
         margin-left: 5%;
     }
+    .chart-title {
+        margin-top: 0px;
+    }
     .bmi-right{
         margin-left: 5%;
     }
@@ -248,7 +251,78 @@
     .bmi-btn {
         width: 100%;
         margin-top: 20px;
-
+    }  
+}
+/* ---------------------------Responsive our team--------------------------- */
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+.our-team{
+    width:700px ;
+    height:700px ;
+    /* border: 2px solid pink; */
+    margin-top: 80px;
+}
+.team-cards{
+    width:677px ;
+    height:640px ;
+    margin: 0 auto;
+}
+.pic-1{
+    width:199px ;
+    height:272px ;
+}
+.pic-2{
+    width:199px ;
+    height:272px ;
+}
+.pic-3{
+    width:199px ;
+    height:272px ;
+}
+.pic-4{
+    width:199px ;
+    height:272px ;
+}
+.pic-5{
+    width:199px ;
+    height:272px ;
+}
+.pic-6{
+    width:199px ;
+    height:272px ;
+}
+}
+/* For small device */
+@media screen and (max-width:576px) {
+    .our-team{
+        width: 100%;
+        margin-top: 70px;
     }
+    .team-cards{
+        width: 365px;
+        height: 1935px;
+    }
+    .team-cards{
+        grid-template-columns: repeat(1,1fr);
+
+    }  
+}
+/* ------------------------------Responsive footer---------------------------- */
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
     
+}
+
+
+
+
+
+
+
+
+
+
+/* For small device */
+@media screen and (max-width:576px) {
+
 }
