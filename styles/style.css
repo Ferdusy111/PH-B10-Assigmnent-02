@@ -510,6 +510,7 @@ header .banner{
 .footer{
     width: 1440px;
     height: 489px;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
 }
 .footer-item{
