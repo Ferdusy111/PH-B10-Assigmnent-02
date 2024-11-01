@@ -317,6 +317,7 @@ header .banner{
 .calculator{
     width:1440px ;
     height:780px ;
+    margin: 0 auto;
     /* border: 2px solid yellow; */
 }
 .bmi-text{
@@ -507,7 +508,7 @@ header .banner{
 
 /* ___________________________________7TH PART_________________________________ */
 .footer{
-    width: 100%;
+    width: 1440px;
     height: 489px;
     background: rgba(255, 255, 255, 0.1);
 }
